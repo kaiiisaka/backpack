@@ -31,7 +31,7 @@ const Header = () => {
 
                </Link>
            </div>
-            <div className='flex justify-center space-x-5 font-semibold'>
+            <div className='flex justify-center space-x-5 font-semibold mr-20'>
                 <NavLink to='/one' className={isOne}>ONE</NavLink>
                 <NavLink to='/backpack' className={isBack}>backpack</NavLink>
                 <NavLink to='/snakefish' className={isSnakefish}>Made by</NavLink>
@@ -42,7 +42,7 @@ const Header = () => {
                     src={waoLogo}
                     alt="wao logo"
                 />
-                <button onClick={waofunc} className='border border-2 ring ring-0 border-cyan-500 rounded-full px-4 py-1 hover:bg-blue-700 active:bg-blue-700'>
+                <button onClick={waofunc} className='border border-2 ring ring-0 border-cyan-500 rounded-full px-4 py-1 hover:bg-blue-700'>
                     WAO
                 </button>
             </div>

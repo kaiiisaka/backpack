@@ -6,7 +6,7 @@ import AppRouter from "./Components/AppRouter";
 
 function App() {
   return (
-    <div className="App bg-gray-900 text-amber-50">
+    <div className="App bg-zinc-900 text-amber-50">
         <BrowserRouter>
             <Header/>
             <AppRouter />
